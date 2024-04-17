@@ -4,7 +4,7 @@ const nextConfig = {
         return [
           {
             source: '/docs/:match*',
-            destination: 'http://localhost:4321/:match*',
+            destination: 'https://studio-docs.hygraph.com/:match*',
           },
         ];
       }
