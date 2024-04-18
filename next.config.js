@@ -8,6 +8,10 @@ const nextConfig = {
                 source: '/_astro/:match*',
                 destination: 'http://localhost:4321/_astro/:match*',
             },
+            {
+                source: '/docs/',
+                destination: 'https://starlight-proxy-test.vercel.app/docs/'
+            },
           {
             source: '/docs/:match*',
             destination: 'https://starlight-proxy-test.vercel.app/docs/:match*/',
