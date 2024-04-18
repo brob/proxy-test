@@ -10,11 +10,11 @@ const nextConfig = {
             },
             {
                 source: '/docs/',
-                destination: 'https://starlight-proxy-test.vercel.app/docs/'
+                destination: 'https://proxy-test-astro.hygraph.com/docs/'
             },
           {
             source: '/docs/:match*',
-            destination: 'https://starlight-proxy-test.vercel.app/docs/:match*/',
+            destination: 'https://proxy-test-astro.hygraph.com/docs/:match*/',
             
           },
         ];
